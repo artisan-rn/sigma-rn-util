@@ -1,0 +1,17 @@
+{
+  "name": "@sigma/rn-util",
+  "version": "0.0.1",
+  "main": "lib",
+  "scripts": {
+    "clean": "rm -rf lib",
+    "tsc:src": "npm run clean && tsc",
+    "prepublishOnly": "npm run tsc:src",
+    "pub:local": "npm publish --registry http://0.0.0.0:4873",
+    "pub": "npm publish"
+  },
+  "devDependencies": {
+    "react": "^16.8.3",
+    "react-native": "^0.59.0",
+    "typescript": "^3.6.3"
+  }
+}

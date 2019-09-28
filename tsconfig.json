@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "allowJs": false,
+    "checkJs": false,
+    "declaration": true,
+    "target": "esnext",
+    "module": "esnext",
+    "sourceMap": false,
+    "experimentalDecorators": true,
+    "jsx": "react-native",
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node",
+    "strict": false,
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "outDir": "./lib"
+  },
+  "include": [
+    "./src/**/*"
+  ]
+}
