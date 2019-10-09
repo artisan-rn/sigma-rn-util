@@ -1,5 +1,5 @@
 {
-  "name": "@sigma/rn-util",
+  "name": "@jdjoy/sigma-rn-util",
   "version": "0.0.1",
   "main": "lib",
   "scripts": {
@@ -13,5 +13,8 @@
     "react": "^16.8.3",
     "react-native": "^0.59.0",
     "typescript": "^3.6.3"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

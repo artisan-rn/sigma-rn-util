@@ -1,5 +1,9 @@
 import {Dimensions, PixelRatio, Platform} from 'react-native';
-
+type DeviceType = {
+  width:number;
+  height:number;
+  dpr:number;
+}
 const dpr = parseInt(String(PixelRatio.get()), 10) || 1;
 let {width, height} = Dimensions.get('window');
 if (Platform.OS === 'android') {
@@ -11,7 +15,7 @@ if (Platform.OS === 'android') {
 }
 const ratioDeps750 = width / 750;
 
-const Device = {
+const Device:DeviceType = {
   width,
   height,
   dpr,
